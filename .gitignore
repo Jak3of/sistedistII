@@ -1,0 +1,27 @@
+# NetBeans specific
+/build/
+/dist/
+/nbproject/private/
+private.properties
+private.xml
+
+# Java compiled files
+*.class
+
+# Package Files
+# *.jar  # Comentado porque necesitamos las librerías
+*.war
+*.ear
+*.nar
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS specific
+.DS_Store
+Thumbs.db
