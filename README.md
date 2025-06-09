@@ -15,10 +15,21 @@ Sistema web desarrollado en Java EE para la gestión de clientes, productos y pe
 - Conexión a base de datos MySQL
 
 ## Requisitos Previos
-- JDK 8 o superior
-- Apache Tomcat 8.5 o superior
+- JDK 1.8 (Java 8) - No compatible con versiones superiores
+- Java EE 7 API
+- Apache Tomcat 8.5
 - MySQL 5.7 o superior
-- NetBeans IDE (recomendado)
+- NetBeans IDE 8.2 o superior con soporte para Java EE
+
+### Dependencias específicas
+- Java EE Web API 8.0
+- JSTL 1.2
+- MySQL Connector/J compatible con Java 8
+
+### Notas de Compatibilidad
+- El proyecto está desarrollado específicamente para Java 8
+- No es compatible con JDK 9 o superior debido a cambios en los módulos
+- Requiere específicamente Java EE 7 para su funcionamiento
 
 ## Configuración del Proyecto
 
